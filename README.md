@@ -1,7 +1,7 @@
 # CausalConceptTS: Causal Attributions for Time Series Classification using High Fidelity Diffusion Models
 
 
-This is the official repository for the paper [CausalConceptTS: Causal Attributions for Time Series Classification using High Fidelity Diffusion Models]
+This is the official repository for the paper CausalConceptTS: Causal Attributions for Time Series Classification using High Fidelity Diffusion Models
 
 
 download the data from the following link:
