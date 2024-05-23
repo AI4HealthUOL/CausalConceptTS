@@ -34,9 +34,9 @@ def get_global(concepts, target_generations, l_channels, target_class='class'):
 
         for g in range(1,target_generations+1):
             outfile = f'{target_disease}_{mask_s}_{g}.npy'
-            do1 = np.load(f'/user/leal6863/causality/causality3/imputer/results/DROUGHT/DROUGHT/T200_beta00.0001_betaT0.02/{outfile}')
-            do0_u = np.load(f'/user/leal6863/causality/causality3/imputer/results/DROUGHT/UNCOND/T200_beta00.0001_betaT0.02/{outfile}')
-            do0_c = np.load(f'/user/leal6863/causality/causality3/imputer/results/DROUGHT/NORM/T200_beta00.0001_betaT0.02/{outfile}')
+            do1 = np.load(f'class/T200_beta00.0001_betaT0.02/{outfile}')
+            do0_u = np.load(f'uncond/T200_beta00.0001_betaT0.02/{outfile}')
+            do0_c = np.load(f'norm/T200_beta00.0001_betaT0.02/{outfile}')
 
             y_pred_do1 = torch.sigmoid(model.forward(torch.from_numpy(do1).float().cuda())).detach().cpu().numpy()
             y_pred_do0_u = torch.sigmoid(model.forward(torch.from_numpy(do0_u).float().cuda())).detach().cpu().numpy()
