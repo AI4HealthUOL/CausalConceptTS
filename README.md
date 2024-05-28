@@ -14,16 +14,18 @@ We prove our approach efficace through three tasks:
 
 - Drought prediction 
 
-[alt-text-1][reports/ptbxl_concepts.pdf] ![alt-text-2](image2.png "title-2")
+![alt text](https://github.com/AI4HealthUOL/CausalConceptTS/blob/main/reports/drought_concepts_learned.png?style=centerme)
+![alt text](https://github.com/AI4HealthUOL/CausalConceptTS/blob/main/reports/drought_do1_do(causal).png?style=centerme)
 
 - ECG classification
 
-![alt-text-1](image1.png "title-1") ![alt-text-2](image2.png "title-2")
+![alt text](https://github.com/AI4HealthUOL/CausalConceptTS/blob/main/reports/ptbxl_concepts.png?style=centerme)
+![alt text](https://github.com/AI4HealthUOL/CausalConceptTS/blob/main/reports/ptbxl_do1_do(causal).png?style=centerme)
 
 - EEG classification
 
-![alt-text-1](image1.png "title-1") ![alt-text-2](image2.png "title-2")
-
+![alt text](https://github.com/AI4HealthUOL/CausalConceptTS/blob/main/reports/schizo_concepts.png?style=centerme)
+![alt text](https://github.com/AI4HealthUOL/CausalConceptTS/blob/main/reports/schizo_do1_do(causal).png?style=centerme)
 
 
 ### Experiments
