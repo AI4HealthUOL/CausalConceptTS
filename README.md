@@ -14,7 +14,7 @@ We prove our approach efficace through three tasks:
 
 - Drought prediction 
 
-![alt-text-1][reports/ptbxl_concepts.pdf "title-1"] ![alt-text-2](image2.png "title-2")
+[alt-text-1][reports/ptbxl_concepts.pdf "title-1"] ![alt-text-2](image2.png "title-2")
 
 - ECG classification
 
