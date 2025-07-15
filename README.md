@@ -1,9 +1,10 @@
-# Explaining Time Series Classification Predictions via Causal Attributions
+# CausalConceptTS: Causal attributions for time series classification using high fidelity diffusion models
 
 
 
-This is the official repository for the paper Explaining Time Series Classification Predictions via Causal Attributions.
+This is the official repository for the paper CausalConceptTS: Causal attributions for time series classification using high fidelity diffusion models
 
+[![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](https://arxiv.org/abs/2405.15871)
 
 
 In this study, within the context of time series classification, we introduce a novel framework to assess the causal effect of concepts, i.e., predefined segments within a time series, on specific classification outcomes. To achieve this, we leverage state-of-the-art diffusion-based generative models to estimate counterfactual outcomes.
@@ -43,3 +44,14 @@ We prove our approach efficace through three tasks:
 
 #### We welcome contributions to improve the reproducibility of this project! Feel free to submit pull requests or open issues.
 
+## Reference
+```bibtex
+@misc{alcaraz2024causalconceptts,
+      title={CausalConceptTS: Causal Attributions for Time Series Classification using High Fidelity Diffusion Models}, 
+      author={Juan Miguel Lopez Alcaraz and Nils Strodthoff},
+      year={2024},
+      eprint={2405.15871},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
