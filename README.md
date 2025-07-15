@@ -2,7 +2,7 @@
 
 
 
-This is the official repository for the paper Explaining Time Series Classification Predictions via Causal Attributions
+This is the official repository for the paper Explaining Time Series Classification Predictions via Causal Attributions.
 
 
 
